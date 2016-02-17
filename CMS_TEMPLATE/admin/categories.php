@@ -34,18 +34,9 @@
                                 </div>
                             </form>
 
-                            <!--<script>
-                            function showEdit() {
-                                //alert('working');
-                                //$("div").toggleClass("hide");
-                                $("div").removeClass("hide");
-                                $("div").addClass("show");
-
-                            }
-                            </script>-->
 
                             <form action="" method="post">
-                                <div class="form-group hide">
+                                <div class="form-group">
                                     <label for="cat_title">Edit Category</label>
 
                                     <?php
@@ -86,7 +77,7 @@
 
                                     ?>
                                 </div>
-                                <div class="form-group hide">
+                                <div class="form-group">
                                     <input class="btn btn-primary" type="submit" name="update_category" value="Edit Category" >
                                 </div>
                             </form>
@@ -101,7 +92,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php include insert_categories(); ?>
                                     <?php include show_categories(); ?>
                                     <?php include delete_categories(); ?>
                                 </tbody>
