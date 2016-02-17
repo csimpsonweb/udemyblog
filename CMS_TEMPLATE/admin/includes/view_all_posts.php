@@ -18,3 +18,11 @@
     <?php include select_posts(); ?>
 </tbody>
 </table>
+
+<?php
+
+if(isset($_GET['delete'])){
+
+    $the_post_id = $_GET['delete'];
+    echo 'hello';
+}

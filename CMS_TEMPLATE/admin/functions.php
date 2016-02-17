@@ -95,6 +95,7 @@ function select_posts(){
 	        echo "<td>$post_tags</td>";
 	        echo "<td>$post_comment_count</td>";
 	        echo "<td>$post_date</td>";
+	        //echo "<td><a href='posts.php?delete={$post_id}'>delete</a></td>";
 	        echo "</tr>";
 	    }
 }
