@@ -34,17 +34,17 @@
 
             ?>
             </ul>
-                <!--<ul class="nav navbar-nav">
+                <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="admin">Admin</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="#">Services</a>
                     </li>
                     <li>
                         <a href="#">Contact</a>
-                    </li>
-                </ul>-->
+                    </li>-->
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>

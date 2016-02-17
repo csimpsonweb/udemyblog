@@ -1,5 +1,5 @@
-
-<?php include 'includes/db.php' ?>
+<?php ob_start(); ?><!-- this is responsible for sending header() requests -->
+<?php include '../includes/db.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 
